@@ -15,6 +15,17 @@ html {
     box-sizing: inherit;
   }
 
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
   header {
     display: flex;
     justify-content: center;
@@ -25,3 +36,29 @@ html {
   header h1 {
     margin: 20px;
   }
+
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav {
+    margin: 10px 0;
+  }
+  
+  .nav-list button {
+    margin: 5px;
+    background-color: #263b57;
+    color: white;
+  }
+  
+  .nav-list button:hover {
+    background-color: #3e597bef;
+  }
+  
+  .nav-list button:active{
+    background-color: #263b57;
+  }
+
