@@ -70,6 +70,8 @@ background-color: #263b57;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 80rem;
+    margin: auto;
 }
 
 .card img {
@@ -84,11 +86,11 @@ background-color: #263b57;
     max-width: 32ch;
     background-color: #263b57;
     border-radius: 8px;
-    
+    margin: 8px;
 }
 
 .card-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: whitesmoke;
     font-weight: 500;
     margin: 12px;
